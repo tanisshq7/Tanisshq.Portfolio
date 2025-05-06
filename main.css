@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url("https://images.unsplash.com/photo-1685558593626-686907d7ee4b?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 0;
+}
+
+header h1 {
+  font-size: 3rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #ccc;
+}
+
+section {
+  margin: 2rem 0;
+  padding: 1rem;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+}
+
+h2 {
+  border-bottom: 2px solid #00aaff;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: "✔️ ";
+  color: #00ffaa;
+}
+
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+  font-size: 0.9rem;
+  color: #bbb;
+}
+
+a {
+  color: #00ffaa;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
